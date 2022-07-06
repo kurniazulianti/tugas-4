@@ -1,13 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
-const Tombol = (props) => {
-  return <button onClick={() =>{
-      return alert(`Anda telah mengklik Tombol ${props.name}`);
-    }}>
-      Tombol {props.name}
-    </button>
-}
+import Tombol from './components/Tombol';
 
 const App = () => {
   return (
